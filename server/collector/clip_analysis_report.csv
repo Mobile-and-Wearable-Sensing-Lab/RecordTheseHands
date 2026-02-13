@@ -1,0 +1,67 @@
+status,user_id,session,clip_index,filename,prompt_text,start_s,end_s,notes
+VALID,lenovo_p2,s002,0,lenovo_p2-5c963ab3-s002-2025-11-25T04:27:29.452778Z.mp4,Loud,0.866942,2.443781,User completed this gesture
+VALID,lenovo_p2,s002,1,lenovo_p2-5c963ab3-s002-2025-11-25T04:27:29.452778Z.mp4,Mean,4.202974,6.241713,User completed this gesture
+VALID,lenovo_p2,s002,2,lenovo_p2-5c963ab3-s002-2025-11-25T04:27:29.452778Z.mp4,Rich,6.985229,9.020417,User completed this gesture
+VALID,lenovo_p2,s002,3,lenovo_p2-5c963ab3-s002-2025-11-25T04:27:29.452778Z.mp4,Poor,10.612651,12.227556,User completed this gesture
+VALID,lenovo_p2,s002,4,lenovo_p2-5c963ab3-s002-2025-11-24T11:17:25.556723Z.mp4,Rich,72.138867,77.108038,User completed this gesture
+VALID,lenovo_p2,s002,5,lenovo_p2-5c963ab3-s002-2025-11-24T11:17:25.556723Z.mp4,Poor,80.325533,84.725905,User completed this gesture
+VALID,lenovo_p2,s002,6,lenovo_p2-5c963ab3-s002-2025-11-24T11:17:25.556723Z.mp4,Thick,87.08917,90.306547,User completed this gesture
+VALID,lenovo_p2,s002,7,lenovo_p2-5c963ab3-s002-2025-11-24T11:17:25.556723Z.mp4,Thick,93.930931,97.677819,User completed this gesture
+VALID,lenovo_p2,s002,8,lenovo_p2-5c963ab3-s002-2025-11-24T11:17:25.556723Z.mp4,Thin,124.843112,129.498206,User completed this gesture
+VALID,lenovo_p2,s002,11,lenovo_p2-5c963ab3-s002-2025-11-24T11:17:25.556723Z.mp4,Expensive,139.375207,142.660215,User completed this gesture
+VALID,lenovo_p2,s002,12,lenovo_p2-5c963ab3-s002-2025-11-24T11:17:25.556723Z.mp4,Cheap,145.37356,148.687214,User completed this gesture
+VALID,lenovo_p2,s002,13,lenovo_p2-5c963ab3-s002-2025-11-24T11:17:25.556723Z.mp4,Flat,152.227264,155.232806,User completed this gesture
+VALID,lenovo_p2,s002,14,lenovo_p2-5c963ab3-s002-2025-11-24T11:17:25.556723Z.mp4,Flat,190.115973,191.459794,User completed this gesture
+VALID,lenovo_p2,s002,15,lenovo_p2-5c963ab3-s002-2025-11-24T11:17:25.556723Z.mp4,Curved,192.81527,193.946408,User completed this gesture
+VALID,lenovo_p2,s004,0,lenovo_p2-5c963ab3-s004-2025-11-25T04:27:54.071801Z.mp4,Expensive,1.615381,3.042872,User completed this gesture
+VALID,lenovo_p2,s004,1,lenovo_p2-5c963ab3-s004-2025-11-25T04:27:54.071801Z.mp4,Cheap,5.262988,7.037899,User completed this gesture
+VALID,lenovo_p2,s004,3,lenovo_p2-5c963ab3-s004-2025-11-24T11:26:39.488833Z.mp4,Rich,58.564805,62.979589,User completed this gesture
+VALID,lenovo_p2,s004,4,lenovo_p2-5c963ab3-s004-2025-11-24T11:26:39.488833Z.mp4,Poor,66.997046,74.112912,User completed this gesture
+VALID,lenovo_p2,s004,5,lenovo_p2-5c963ab3-s004-2025-11-24T11:26:39.488833Z.mp4,Thick,85.21952,95.540267,User completed this gesture
+VALID,lenovo_p2,s004,6,lenovo_p2-5c963ab3-s004-2025-11-24T11:26:39.488833Z.mp4,Thin,96.569087,103.027423,User completed this gesture
+VALID,lenovo_p2,s004,7,lenovo_p2-5c963ab3-s004-2025-11-24T11:26:39.488833Z.mp4,Cheap,113.68197,118.517233,User completed this gesture
+VALID,lenovo_p2,s004,8,lenovo_p2-5c963ab3-s004-2025-11-24T11:26:39.488833Z.mp4,Flat,122.371256,123.832429,User completed this gesture
+VALID,lenovo_p2,s004,9,lenovo_p2-5c963ab3-s004-2025-11-24T11:26:39.488833Z.mp4,Curved,126.941474,128.87597,User completed this gesture
+VALID,lenovo_p2,s005,0,lenovo_p2-5c963ab3-s005-2025-11-25T04:28:42.477655Z.mp4,Male,4.031767,7.196922,User completed this gesture
+VALID,lenovo_p2,s005,2,lenovo_p2-5c963ab3-s005-2025-11-24T12:18:52.811453Z.mp4,Loud,7.075134,8.599581,User completed this gesture
+VALID,lenovo_p2,s005,3,lenovo_p2-5c963ab3-s005-2025-11-24T12:18:52.811453Z.mp4,Mean,18.72381,21.346963,User completed this gesture
+VALID,lenovo_p2,s005,4,lenovo_p2-5c963ab3-s005-2025-11-24T12:18:52.811453Z.mp4,Rich,25.281505,26.814426,User completed this gesture
+VALID,lenovo_p2,s005,5,lenovo_p2-5c963ab3-s005-2025-11-24T12:18:52.811453Z.mp4,Poor,27.897991,29.305944,User completed this gesture
+VALID,lenovo_p2,s005,6,lenovo_p2-5c963ab3-s005-2025-11-24T12:18:52.811453Z.mp4,Thick,30.16756,31.282006,User completed this gesture
+VALID,lenovo_p2,s005,9,lenovo_p2-5c963ab3-s005-2025-11-24T12:18:52.811453Z.mp4,Thin,34.20317,35.522108,User completed this gesture
+VALID,lenovo_p2,s005,10,lenovo_p2-5c963ab3-s005-2025-11-24T12:18:52.811453Z.mp4,Expensive,36.228014,37.89824,User completed this gesture
+VALID,lenovo_p2,s005,11,lenovo_p2-5c963ab3-s005-2025-11-24T12:18:52.811453Z.mp4,Cheap,39.59056,40.6146,User completed this gesture
+VALID,lenovo_p2,s005,12,lenovo_p2-5c963ab3-s005-2025-11-24T12:18:52.811453Z.mp4,Flat,41.582418,42.622876,User completed this gesture
+VALID,lenovo_p2,s005,13,lenovo_p2-5c963ab3-s005-2025-11-24T12:18:52.811453Z.mp4,Curved,43.571282,44.562221,User completed this gesture
+VALID,lenovo_p2,s006,0,lenovo_p2-5c963ab3-s006-2025-11-25T04:29:53.418813Z.mp4,Female,2.045536,6.298367,User completed this gesture
+VALID,lenovo_p2,s006,1,lenovo_p2-5c963ab3-s006-2025-11-25T04:29:53.418813Z.mp4,Tight,7.909716,9.655071,User completed this gesture
+VALID,lenovo_p2,s006,2,lenovo_p2-5c963ab3-s006-2025-11-24T12:57:01.461983Z.mp4,Cheap,11.433157,12.491432,User completed this gesture
+VALID,lenovo_p2,s006,3,lenovo_p2-5c963ab3-s006-2025-11-24T12:57:01.461983Z.mp4,Flat,13.185713,14.36627,User completed this gesture
+VALID,lenovo_p2,s006,4,lenovo_p2-5c963ab3-s006-2025-11-24T12:57:01.461983Z.mp4,Curved,15.230797,16.236812,User completed this gesture
+VALID,lenovo_p2,s007,0,lenovo_p2-5c963ab3-s007-2025-11-25T04:30:38.264795Z.mp4,Loose,2.1003,3.957323,User completed this gesture
+VALID,lenovo_p2,s007,4,lenovo_p2-5c963ab3-s007-2025-11-25T04:30:38.264795Z.mp4,High,10.724307,12.3772,User completed this gesture
+VALID,lenovo_p2,s007,5,lenovo_p2-5c963ab3-s007-2025-11-25T04:30:38.264795Z.mp4,Low,13.859395,14.986182,User completed this gesture
+VALID,lenovo_p2,s007,6,lenovo_p2-5c963ab3-s007-2025-11-25T04:30:38.264795Z.mp4,Soft,16.727339,17.950021,User completed this gesture
+VALID,lenovo_p2,s008,0,lenovo_p2-5c963ab3-s008-2025-11-25T04:32:05.509167Z.mp4,Hard,2.17991,4.704208,User completed this gesture
+VALID,lenovo_p2,s009,0,lenovo_p2-5c963ab3-s009-2025-11-25T04:34:08.575676Z.mp4,Deep,2.582744,4.053868,User completed this gesture
+VALID,lenovo_p2,s009,1,lenovo_p2-5c963ab3-s009-2025-11-25T04:34:08.575676Z.mp4,Shallow,6.36297,8.844026,User completed this gesture
+VALID,lenovo_p2,s009,2,lenovo_p2-5c963ab3-s009-2025-11-25T04:34:08.575676Z.mp4,Clean,10.488587,12.217163,User completed this gesture
+VALID,lenovo_p2,s009,3,lenovo_p2-5c963ab3-s009-2025-11-25T04:34:08.575676Z.mp4,Happy,14.655469,17.183818,User completed this gesture
+VALID,lenovo_p2,s011,0,lenovo_p2-5c963ab3-s011-2025-11-25T04:43:48.158744Z.mp4,Dirty,1.922001,3.363435,User completed this gesture
+VALID,lenovo_p2,s011,1,lenovo_p2-5c963ab3-s011-2025-11-25T04:43:48.158744Z.mp4,Strong,4.779671,5.881188,User completed this gesture
+VALID,lenovo_p2,s011,2,lenovo_p2-5c963ab3-s011-2025-11-25T04:43:48.158744Z.mp4,Weak,6.817895,7.8703,User completed this gesture
+VALID,lenovo_p2,s012,0,lenovo_p2-5c963ab3-s012-2025-11-25T04:53:04.041276Z.mp4,Dead,2.504523,5.42684,User completed this gesture
+VALID,lenovo_p2,s012,1,lenovo_p2-5c963ab3-s012-2025-11-25T04:53:04.041276Z.mp4,Alive,7.173372,9.725913,User completed this gesture
+VALID,lenovo_p2,s012,2,lenovo_p2-5c963ab3-s012-2025-11-25T04:53:04.041276Z.mp4,Heavy,11.691972,14.385091,User completed this gesture
+INVALID,lenovo_p2,s002,9,lenovo_p2-5c963ab3-s002-2025-11-24T11:17:25.556723Z.mp4,Expensive,133.552667,136.760487,User SKIPPED or marked invalid
+INVALID,lenovo_p2,s002,10,lenovo_p2-5c963ab3-s002-2025-11-24T11:17:25.556723Z.mp4,Expensive,136.760487,139.375207,User SKIPPED or marked invalid
+INVALID,lenovo_p2,s005,7,lenovo_p2-5c963ab3-s005-2025-11-24T12:18:52.811453Z.mp4,Thin,32.415353,32.965216,User SKIPPED or marked invalid
+INVALID,lenovo_p2,s005,8,lenovo_p2-5c963ab3-s005-2025-11-24T12:18:52.811453Z.mp4,Thin,32.965216,34.20317,User SKIPPED or marked invalid
+INVALID,lenovo_p2,s007,1,lenovo_p2-5c963ab3-s007-2025-11-25T04:30:38.264795Z.mp4,High,8.112661,8.35547,User SKIPPED or marked invalid
+INVALID,lenovo_p2,s007,2,lenovo_p2-5c963ab3-s007-2025-11-25T04:30:38.264795Z.mp4,High,8.35547,9.543988,User SKIPPED or marked invalid
+INVALID,lenovo_p2,s007,3,lenovo_p2-5c963ab3-s007-2025-11-25T04:30:38.264795Z.mp4,High,9.543988,10.724307,User SKIPPED or marked invalid
+INVALID,lenovo_p2,s009,4,lenovo_p2-5c963ab3-s009-2025-11-25T04:34:08.575676Z.mp4,Dirty,18.908451,18.996329,User SKIPPED or marked invalid
+MISSING_DATA,lenovo_p2,s004,2,lenovo_p2-5c963ab3-s004-2025-11-25T04:27:54.071801Z.mp4,Flat,,,Incomplete recording data
+MISSING_DATA,lenovo_p2,s005,1,lenovo_p2-5c963ab3-s005-2025-11-25T04:28:42.477655Z.mp4,Quiet,,,Incomplete recording data
+MISSING_DATA,lenovo_p2,s009,5,lenovo_p2-5c963ab3-s009-2025-11-25T04:34:08.575676Z.mp4,Dirty,,,Incomplete recording data
+MISSING_DATA,lenovo_p2,s012,3,lenovo_p2-5c963ab3-s012-2025-11-25T04:53:04.041276Z.mp4,Light,,,Incomplete recording data

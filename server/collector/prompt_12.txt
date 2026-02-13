@@ -1,0 +1,10 @@
+VIDEO resource/camera.mp4 Camera
+VIDEO resource/television.mp4 Television
+VIDEO resource/radio.mp4 Radio
+VIDEO resource/goodevening.mp4 Goodevening
+VIDEO resource/goodnight.mp4 Goodnight
+VIDEO resource/alright.mp4 Alright
+VIDEO resource/goodmorning.mp4 Goodmorning
+VIDEO resource/goodafternoon.mp4 Goodafternoon
+VIDEO resource/howareyou.mp4 Howareyou
+VIDEO resource/hello.mp4 Hello

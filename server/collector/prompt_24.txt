@@ -1,0 +1,11 @@
+VIDEO resource/election.mp4 Election
+VIDEO resource/money.mp4 Money
+VIDEO resource/bill.mp4 Bill
+VIDEO resource/marriage.mp4 Marriage
+VIDEO resource/team.mp4 Team
+VIDEO resource/race.mp4 Race
+VIDEO resource/technology.mp4 Technology
+VIDEO resource/energy.mp4 Energy
+VIDEO resource/war.mp4 War
+VIDEO resource/peace.mp4 Peace
+VIDEO resource/president.mp4 President

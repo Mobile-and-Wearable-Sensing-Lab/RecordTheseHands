@@ -1,0 +1,10 @@
+VIDEO resource/long.mp4 Long
+VIDEO resource/short.mp4 Short
+VIDEO resource/sad.mp4 Sad
+VIDEO resource/tall.mp4 Tall
+VIDEO resource/wide.mp4 Wide
+VIDEO resource/narrow.mp4 Narrow
+VIDEO resource/biglarge.mp4 Biglarge
+VIDEO resource/smalllittle.mp4 Smalllittle
+VIDEO resource/slow.mp4 Slow
+VIDEO resource/fast.mp4 Fast

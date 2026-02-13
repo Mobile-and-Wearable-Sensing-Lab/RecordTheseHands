@@ -1,0 +1,10 @@
+VIDEO resource/deaf.mp4 Deaf
+VIDEO resource/blind.mp4 Blind
+VIDEO resource/nice.mp4 Nice
+VIDEO resource/dog.mp4 Dog
+VIDEO resource/cat.mp4 Cat
+VIDEO resource/fish.mp4 Fish
+VIDEO resource/bird.mp4 Bird
+VIDEO resource/cow.mp4 Cow
+VIDEO resource/mouse.mp4 Mouse
+VIDEO resource/horse.mp4 Horse

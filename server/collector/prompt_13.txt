@@ -1,0 +1,10 @@
+VIDEO resource/pleased.mp4 Pleased
+VIDEO resource/thankyou.mp4 Thankyou
+VIDEO resource/table.mp4 Table
+VIDEO resource/chair.mp4 Chair
+VIDEO resource/bed.mp4 Bed
+VIDEO resource/dream.mp4 Dream
+VIDEO resource/window.mp4 Window
+VIDEO resource/door.mp4 Door
+VIDEO resource/bedroom.mp4 Bedroom
+VIDEO resource/kitchen.mp4 Kitchen

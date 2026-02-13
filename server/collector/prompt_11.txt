@@ -1,0 +1,11 @@
+VIDEO resource/sunday.mp4 Sunday
+VIDEO resource/monday.mp4 Monday
+VIDEO resource/night.mp4 Night
+VIDEO resource/clock.mp4 Clock
+VIDEO resource/lamp.mp4 Lamp
+VIDEO resource/fan.mp4 Fan
+VIDEO resource/cellphone.mp4 Cellphone
+VIDEO resource/computer.mp4 Computer
+VIDEO resource/laptop.mp4 Laptop
+VIDEO resource/screen.mp4 Screen
+VIDEO resource/queen.mp4 Queen

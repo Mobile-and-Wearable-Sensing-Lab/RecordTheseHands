@@ -1,0 +1,10 @@
+VIDEO resource/animal.mp4 Animal
+VIDEO resource/hat.mp4 Hat
+VIDEO resource/dress.mp4 Dress
+VIDEO resource/suit.mp4 Suit
+VIDEO resource/skirt.mp4 Skirt
+VIDEO resource/shirt.mp4 Shirt
+VIDEO resource/tshirt.mp4 Tshirt
+VIDEO resource/pant.mp4 Pant
+VIDEO resource/shoes.mp4 Shoes
+VIDEO resource/pocket.mp4 Pocket

@@ -1,0 +1,10 @@
+VIDEO resource/grey.mp4 Grey
+VIDEO resource/colour.mp4 Colour
+VIDEO resource/time.mp4 Time
+VIDEO resource/tuesday.mp4 Tuesday
+VIDEO resource/wednesday.mp4 Wednesday
+VIDEO resource/thursday.mp4 Thursday
+VIDEO resource/friday.mp4 Friday
+VIDEO resource/saturday.mp4 Saturday
+VIDEO resource/today.mp4 Today
+VIDEO resource/tomorrow.mp4 Tomorrow

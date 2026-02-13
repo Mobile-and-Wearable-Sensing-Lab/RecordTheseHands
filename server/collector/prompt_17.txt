@@ -1,0 +1,10 @@
+VIDEO resource/author.mp4 Author
+VIDEO resource/manager.mp4 Manager
+VIDEO resource/reporter.mp4 Reporter
+VIDEO resource/actor.mp4 Actor
+VIDEO resource/job.mp4 Job
+VIDEO resource/train.mp4 Train
+VIDEO resource/plane.mp4 Plane
+VIDEO resource/truck.mp4 Truck
+VIDEO resource/bicycle.mp4 Bicycle
+VIDEO resource/bus.mp4 Bus

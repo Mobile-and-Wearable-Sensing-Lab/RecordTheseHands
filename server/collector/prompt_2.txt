@@ -1,0 +1,12 @@
+VIDEO resource/male.mp4 Male
+VIDEO resource/quiet.mp4 Quiet
+VIDEO resource/female.mp4 Female
+VIDEO resource/tight.mp4 Tight
+VIDEO resource/loose.mp4 Loose
+VIDEO resource/high.mp4 High
+VIDEO resource/low.mp4 Low
+VIDEO resource/soft.mp4 Soft
+VIDEO resource/hard.mp4 Hard
+VIDEO resource/deep.mp4 Deep
+VIDEO resource/shallow.mp4 Shallow
+

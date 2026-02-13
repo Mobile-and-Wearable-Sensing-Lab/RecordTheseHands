@@ -1,0 +1,10 @@
+VIDEO resource/loud.mp4 Loud
+VIDEO resource/mean.mp4 Mean
+VIDEO resource/rich.mp4 Rich
+VIDEO resource/poor.mp4 Poor
+VIDEO resource/thick.mp4 Thick
+VIDEO resource/thin.mp4 Thin
+VIDEO resource/expensive.mp4 Expensive
+VIDEO resource/cheap.mp4 Cheap
+VIDEO resource/flat.mp4 Flat
+VIDEO resource/curved.mp4 Curved

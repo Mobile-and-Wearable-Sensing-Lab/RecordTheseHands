@@ -1,0 +1,10 @@
+VIDEO resource/boat.mp4 Boat
+VIDEO resource/trainticket.mp4 Trainticket
+VIDEO resource/transportation.mp4 Transportation
+VIDEO resource/son.mp4 Son
+VIDEO resource/daughter.mp4 Daughter
+VIDEO resource/mother.mp4 Mother
+VIDEO resource/fater.mp4 Fater
+VIDEO resource/adult.mp4 Adult
+VIDEO resource/baby.mp4 Baby
+VIDEO resource/friend.mp4 Friend

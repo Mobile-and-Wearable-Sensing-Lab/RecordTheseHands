@@ -1,0 +1,10 @@
+VIDEO resource/hot.mp4 Hot
+VIDEO resource/cold.mp4 Cold
+VIDEO resource/warm.mp4 Warm
+VIDEO resource/beautiful.mp4 Beautiful
+VIDEO resource/cool.mp4 Cool
+VIDEO resource/new.mp4 New
+VIDEO resource/dry.mp4 Dry
+VIDEO resource/sick.mp4 Sick
+VIDEO resource/healthy.mp4 Healthy
+VIDEO resource/ugly.mp4 Ugly

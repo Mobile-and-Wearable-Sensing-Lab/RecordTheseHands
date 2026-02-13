@@ -24,7 +24,7 @@ set -eu
 
 PROJECT=$(cat collector/config.py | grep 'DEV_PROJECT *=' | sed 's/DEV_PROJECT *= *['\''"]\([^'\''"]*\)['\''"].*/\1/')
 
-gcloud --quiet app deploy --project="${PROJECT}" \
+gcloud app deploy --project="${PROJECT}" \
     dispatch.yaml \
     collector/app.yaml
 

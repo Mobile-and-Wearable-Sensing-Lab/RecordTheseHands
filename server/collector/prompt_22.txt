@@ -1,0 +1,10 @@
+VIDEO resource/location.mp4 Location
+VIDEO resource/city.mp4 City
+VIDEO resource/house.mp4 House
+VIDEO resource/street.mp4 Street
+VIDEO resource/i.mp4 I
+VIDEO resource/you.mp4 You
+VIDEO resource/he.mp4 He
+VIDEO resource/she.mp4 She
+VIDEO resource/it.mp4 It
+VIDEO resource/we.mp4 We

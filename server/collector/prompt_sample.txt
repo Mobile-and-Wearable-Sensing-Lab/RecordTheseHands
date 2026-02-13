@@ -1,0 +1,2 @@
+VIDEO resource/samplecat.mp4 SampleCat
+VIDEO resource/samplehorse.mp4 SampleHorse

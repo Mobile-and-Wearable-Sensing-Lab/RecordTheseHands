@@ -1,0 +1,10 @@
+VIDEO resource/bathroom.mp4 Bathroom
+VIDEO resource/pencil.mp4 Pencil
+VIDEO resource/pen.mp4 Pen
+VIDEO resource/photograph.mp4 Photograph
+VIDEO resource/soap.mp4 Soap
+VIDEO resource/book.mp4 Book
+VIDEO resource/page.mp4 Page
+VIDEO resource/key.mp4 Key
+VIDEO resource/paint.mp4 Paint
+VIDEO resource/letter.mp4 Letter

@@ -1,0 +1,10 @@
+VIDEO resource/clean.mp4 Clean
+VIDEO resource/happy.mp4 Happy
+VIDEO resource/dirty.mp4 Dirty
+VIDEO resource/strong.mp4 Strong
+VIDEO resource/weak.mp4 Weak
+VIDEO resource/dead.mp4 Dead
+VIDEO resource/alive.mp4 Alive
+VIDEO resource/heavy.mp4 Heavy
+VIDEO resource/light.mp4 Light
+VIDEO resource/famous.mp4 Famous

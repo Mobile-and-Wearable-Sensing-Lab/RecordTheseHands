@@ -1,0 +1,10 @@
+VIDEO resource/student.mp4 Student
+VIDEO resource/lawyer.mp4 Lawyer
+VIDEO resource/doctor.mp4 Doctor
+VIDEO resource/patient.mp4 Patient
+VIDEO resource/waiter.mp4 Waiter
+VIDEO resource/secretary.mp4 Secretary
+VIDEO resource/priest.mp4 Priest
+VIDEO resource/police.mp4 Police
+VIDEO resource/soldier.mp4 Soldier
+VIDEO resource/artist.mp4 Artist

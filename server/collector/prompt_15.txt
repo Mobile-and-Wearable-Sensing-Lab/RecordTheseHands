@@ -1,0 +1,10 @@
+VIDEO resource/paper.mp4 Paper
+VIDEO resource/lock.mp4 Lock
+VIDEO resource/telephone.mp4 Telephone
+VIDEO resource/bag.mp4 Bag
+VIDEO resource/box.mp4 Box
+VIDEO resource/gift.mp4 Gift
+VIDEO resource/card.mp4 Card
+VIDEO resource/ring.mp4 Ring
+VIDEO resource/tool.mp4 Tool
+VIDEO resource/teacher.mp4 Teacher

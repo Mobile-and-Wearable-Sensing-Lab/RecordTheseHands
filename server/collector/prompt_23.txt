@@ -1,0 +1,10 @@
+VIDEO resource/they.mp4 They
+VIDEO resource/summer.mp4 Summer
+VIDEO resource/spring.mp4 Spring
+VIDEO resource/winter.mp4 Winter
+VIDEO resource/fall.mp4 Fall
+VIDEO resource/season.mp4 Season
+VIDEO resource/monsoon.mp4 Monsoon
+VIDEO resource/religion.mp4 Religion
+VIDEO resource/death.mp4 Death
+VIDEO resource/medicine.mp4 Medicine

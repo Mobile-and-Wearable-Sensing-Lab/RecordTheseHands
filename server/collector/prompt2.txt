@@ -1,0 +1,8 @@
+VIDEO resource/loud.mp4 Loud
+VIDEO resource/quiet.mp4 Quiet
+VIDEO resource/sad.mp4 Sad
+VIDEO resource/ugly.mp4 Ugly
+VIDEO resource/happy.mp4 Happy
+VIDEO resource/deaf.mp4 Deaf
+VIDEO resource/blind.mp4 Blind
+VIDEO resource/beautiful.mp4 Beautiful

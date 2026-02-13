@@ -1,0 +1,10 @@
+VIDEO resource/clothing.mp4 Clothing
+VIDEO resource/red.mp4 Red
+VIDEO resource/green.mp4 Green
+VIDEO resource/blue.mp4 Blue
+VIDEO resource/yellow.mp4 Yellow
+VIDEO resource/brown.mp4 Brown
+VIDEO resource/pink.mp4 Pink
+VIDEO resource/orange.mp4 Orange
+VIDEO resource/black.mp4 Black
+VIDEO resource/white.mp4 White

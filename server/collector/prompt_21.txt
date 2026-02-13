@@ -1,0 +1,10 @@
+VIDEO resource/university.mp4 University
+VIDEO resource/park.mp4 Park
+VIDEO resource/shop.mp4 Shop
+VIDEO resource/library.mp4 Library
+VIDEO resource/hospital.mp4 Hospital
+VIDEO resource/temple.mp4 Temple
+VIDEO resource/market.mp4 Market
+VIDEO resource/india.mp4 India
+VIDEO resource/ground.mp4 Ground
+VIDEO resource/bank.mp4 Bank

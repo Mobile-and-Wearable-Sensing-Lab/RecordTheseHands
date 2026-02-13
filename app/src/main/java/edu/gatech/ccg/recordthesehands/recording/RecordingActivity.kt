@@ -201,12 +201,13 @@ fun Random.Default.nextHexId(numBytes: Int): String {
 }
 
 fun Context.filenameToFilepath(filename: String): File {
-  return File(
-    filesDir,
-    File.separator + "upload" + File.separator + filename
-  )
-}
 
+  // ALWAYS internal first
+  val uploadDir = File(filesDir, "upload")
+  if (!uploadDir.exists()) uploadDir.mkdirs()
+
+  return File(uploadDir, filename)
+}
 /**
  * Class to handle all the information about the recording session which should be saved
  * to the server.
@@ -276,7 +277,7 @@ class RecordingActivity : AppCompatActivity(), WordPromptFragment.PromptDisplayM
      * Record video at 15 Mbps. At 1944x2592 @ 30 fps, this level of detail should be more
      * than high enough.
      */
-    private const val RECORDER_VIDEO_BITRATE: Int = 15_000_000
+    private const val RECORDER_VIDEO_BITRATE: Int = 30_000_000
 
     /**
      * Height, width, and frame rate of the video recording. Using a 4:3 aspect ratio allows us
@@ -343,6 +344,7 @@ class RecordingActivity : AppCompatActivity(), WordPromptFragment.PromptDisplayM
    * The recording preview.
    */
   lateinit var cameraView: SurfaceView
+  private lateinit var swipeBlockedX: TextView
 
   // UI state variables
   /**
@@ -584,6 +586,7 @@ class RecordingActivity : AppCompatActivity(), WordPromptFragment.PromptDisplayM
     recorder = MediaRecorder(this)
 
     outputFile = applicationContext.filenameToFilepath(filename)
+    Log.i(TAG, "Recording to: ${outputFile.absolutePath}")
     if (outputFile.parentFile?.let { !it.exists() } ?: false) {
       Log.i(TAG, "creating directory ${outputFile.parentFile}.")
       outputFile.parentFile?.mkdirs()
@@ -1153,7 +1156,15 @@ class RecordingActivity : AppCompatActivity(), WordPromptFragment.PromptDisplayM
         json.put("filename", filename)
         json.put("endTimestamp", timestamp)
         dataManager.addKeyValue("recording_stopped-${timestamp}", json, "recording")
-        dataManager.registerFile(outputFile.relativeTo(applicationContext.filesDir).path)
+        val finalFile = moveFileToSDIfAvailable(outputFile)
+
+        val relativePath =
+          if (finalFile.absolutePath.startsWith(filesDir.absolutePath))
+            finalFile.relativeTo(filesDir).path
+          else
+            finalFile.absolutePath
+
+        dataManager.registerFile(relativePath)
         prompts.savePromptIndex()
         sessionInfo.endTimestamp = now
         sessionInfo.finalPromptIndex = prompts.promptIndex
@@ -1202,6 +1213,7 @@ class RecordingActivity : AppCompatActivity(), WordPromptFragment.PromptDisplayM
 
     val view = binding.root
     setContentView(view)
+    swipeBlockedX = findViewById(R.id.swipeBlockedX)
     window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
 
     // Set up view pager
@@ -1283,6 +1295,11 @@ class RecordingActivity : AppCompatActivity(), WordPromptFragment.PromptDisplayM
           TAG,
           "onPageSelected(${position}) sessionPager.currentItem ${sessionPager.currentItem} currentPage (before updating) ${currentPage}"
         )
+        if (currentClipDetails == null && position > currentPage) {
+          sessionPager.setCurrentItem(currentPage, false)
+          showSwipeBlockedFeedback()
+          return
+        }
         if (currentClipDetails != null) {
           val now = Instant.now()
           val timestamp = DateTimeFormatter.ISO_INSTANT.format(now)
@@ -1815,6 +1832,79 @@ class RecordingActivity : AppCompatActivity(), WordPromptFragment.PromptDisplayM
       val recipients = ArrayList(listOf(*resources.getStringArray(recipientArrayId)))
 
       sendEmail(sender, recipients, subject, body, password)
+    }
+  }
+  private fun showSwipeBlockedFeedback() {
+    runOnUiThread {
+
+      // ======================
+      // 📳 VIBRATION (modern safe)
+      // ======================
+      try {
+        val vibrator = getSystemService(Context.VIBRATOR_SERVICE) as android.os.Vibrator
+
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+          vibrator.vibrate(
+            android.os.VibrationEffect.createOneShot(
+              200,
+              android.os.VibrationEffect.DEFAULT_AMPLITUDE
+            )
+          )
+        } else {
+          @Suppress("DEPRECATION")
+          vibrator.vibrate(200)
+        }
+      } catch (_: Exception) {}
+
+      // ======================
+      // ❌ BIG X FADE
+      // ======================
+      swipeBlockedX.visibility = View.VISIBLE
+      swipeBlockedX.alpha = 0f
+
+      swipeBlockedX.animate()
+        .alpha(1f)
+        .setDuration(120)
+        .withEndAction {
+          swipeBlockedX.animate()
+            .alpha(0f)
+            .setDuration(1200)
+            .withEndAction {
+              swipeBlockedX.visibility = View.GONE
+            }
+        }
+
+      // ======================
+      // 🔴 2s FLASH BUTTON
+      // ======================
+      val flashAnimator = ObjectAnimator.ofFloat(recordButton, "alpha", 1f, 0.3f, 1f)
+      flashAnimator.duration = 300
+      flashAnimator.repeatCount = 5
+      flashAnimator.start()
+    }
+  }
+  private fun moveFileToSDIfAvailable(file: File): File {
+    return try {
+      val externalDirs = getExternalFilesDirs(null)
+
+      if (externalDirs.size > 1 && externalDirs[1] != null) {
+        val sdUpload = File(externalDirs[1], "upload")
+        if (!sdUpload.exists()) sdUpload.mkdirs()
+
+        val dest = File(sdUpload, file.name)
+
+        if (file.renameTo(dest)) {
+          Log.i("Storage", "Moved to SD card: ${dest.absolutePath}")
+          dest
+        } else {
+          file
+        }
+      } else {
+        file
+      }
+    } catch (e: Exception) {
+      Log.e("Storage", "Move failed", e)
+      file
     }
   }
 

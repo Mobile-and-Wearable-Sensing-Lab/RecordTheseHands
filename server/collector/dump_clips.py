@@ -136,7 +136,7 @@ def clean():
 
 def main():
   db = firestore.Client()
-  doc_ref = db.document('collector/users')
+  doc_ref = db.document('collector/users/lenovo_p2/data/save_clip')
   all_clips = list()
   all_sessions = list()
   for c_ref in doc_ref.collections():

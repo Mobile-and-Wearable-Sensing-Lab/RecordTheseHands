@@ -1,0 +1,10 @@
+VIDEO resource/attack.mp4 Attack
+VIDEO resource/newspaper.mp4 Newspaper
+VIDEO resource/gun.mp4 Gun
+VIDEO resource/sport.mp4 Sport
+VIDEO resource/exercise.mp4 Exercise
+VIDEO resource/ball.mp4 Ball
+VIDEO resource/price.mp4 Price
+VIDEO resource/sign.mp4 Sign
+VIDEO resource/science.mp4 Science
+VIDEO resource/god.mp4 God

@@ -1,0 +1,11 @@
+VIDEO resource/yesterday.mp4 Yesterday
+VIDEO resource/week.mp4 Week
+VIDEO resource/month.mp4 Month
+VIDEO resource/year.mp4 Year
+VIDEO resource/hour.mp4 Hour
+VIDEO resource/minute.mp4 Minute
+VIDEO resource/second.mp4 Second
+VIDEO resource/morning.mp4 Morning
+VIDEO resource/afternoon.mp4 Afternoon
+VIDEO resource/evening.mp4 Evening
+VIDEO resource/wife.mp4 Wife
